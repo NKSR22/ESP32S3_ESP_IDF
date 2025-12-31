@@ -1,0 +1,27 @@
+# ESP-IDF Temporary Files
+build/
+sdkconfig
+sdkconfig.old
+
+# Python & Build Artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Managed Components
+managed_components/
+dependencies.lock
+
+# Editor Specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
